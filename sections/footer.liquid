@@ -18,39 +18,6 @@
       --block-grid-row: {{ block.settings.row_factor }};
     }
   {%- endfor -%}
-  #shopify-section-{{ section.id }} .footer__block-heading {
-    font-family: var(--font-heading-family);
-    font-weight: normal;
-    font-size: 14px;
-  }
-  #shopify-section-{{ section.id }} .footer__richtext {
-    font-family: var(--font-body-family);
-    font-weight: normal;
-    font-size: 14px;
-  }
-  @media screen and (max-width: 749px) {
-    #shopify-section-{{ section.id }} .grid:has(.footer__richtext) {
-      grid-template-columns: auto auto;
-    }
-    #shopify-section-{{ section.id }} .section-footer__block:has(.footer__richtext) {
-      grid-column: span 1 !important;
-    }
-  }
-  #shopify-section-{{ section.id }} .footer__richtext a {
-    font-family: var(--font-body-family-medium);
-    font-weight: normal;
-    text-decoration: none;
-  }
-  #shopify-section-{{ section.id }} .footer__newsletter .footer__block-heading {
-    font-size: 20px;
-    line-height: 1.2;
-    margin-top: 45px;
-  }
-  @media screen and (min-width: 750px) {
-    #shopify-section-{{ section.id }} .footer__newsletter .footer__block-heading {
-      font-size: 24px;
-    }
-  }
 {%- endstyle -%}
 
 {%- assign is_first_details = true -%}
@@ -89,12 +56,6 @@
               {% style %}
                 #shopify-section-{{ section.id }} .footer__links a {
                   color: rgba(var(--color-foreground), {{ block.settings.menu_link_opacity | divided_by: 100.0 }});
-                  font-family: var(--font-body-family-medium);
-                  font-weight: normal;
-                  font-size: 14px;
-                }
-                #shopify-section-{{ section.id }} .footer__links li + li {
-                  margin-top: var(--spacing-3);
                 }
               {% endstyle %}
               {%- assign menu_title = block.settings.title | default: block.settings.menu.title -%}
@@ -218,23 +179,6 @@
                     max-width: 100%;
                   }
                 }
-                #shopify-section-{{ section.id }} .footer__brand .rte p {
-                  margin-bottom: var(--spacing-2);
-                }
-                #shopify-section-{{ section.id }} .footer__brand .rte p:last-child {
-                  margin-bottom: 0;
-                }
-                #shopify-section-{{ section.id }} .footer__brand-title {
-                  font-family: var(--font-heading-family);
-                  font-weight: normal;
-                  font-size: 16px;
-                  margin-top: 0;
-                }
-                @media screen and (min-width: 750px) {
-                  #shopify-section-{{ section.id }} .footer__brand-title {
-                    font-size: 20px;
-                  }
-                }
               {%- endstyle -%}
               <div class="section-footer__content footer__brand {{ block_content_alignment_class }}">
                 <a href="{{- routes.root_url -}}" title="{{- shop.name | escape -}}">
@@ -245,15 +189,10 @@
                       assign logo_alt = block.settings.logo.alt | default: shop.name | escape
                       render 'image', image: block.settings.logo, section_index: section.index, alt: logo_alt, width: block.settings.logo_width_new, class: 'footer__brand-logo', animation: 'false'
                     else
-                      comment
-                        echo shop.name | escape
-                      endcomment
+                      echo shop.name | escape
                     endif
                   -%}
                 </a>
-                {%- if block.settings.title != blank -%}
-                  <h3 class="footer__brand-title">{{ block.settings.title }}</h3>
-                {%- endif -%}
                 {%- if block.settings.text != blank -%}
                   <div class="rte">{{ block.settings.text }}</div>
                 {%- endif -%}
@@ -481,11 +420,6 @@
           "label": "t:sections.footer.blocks.brand.settings.logo_width_mobile.label",
           "info": "t:sections.footer.blocks.brand.settings.logo_width_mobile.info",
           "default": 150
-        },
-        {
-          "type": "text",
-          "id": "title",
-          "label": "Title"
         },
         {
           "type": "richtext",
@@ -1047,7 +981,7 @@
           "id": "text",
           "label": "t:sections.global.content.label",
           "info": "t:sections.footer.blocks.richtext.settings.text.info",
-          "default": "<p>Copyright ©[year] DigiFist. All rights reserved. Powered by Shopify.</p>"
+          "default": "<p>Website by <a href=\"https://dashcreative.com.au\" target=\"_blank\" title=\"https://dashcreative.com.au\">Dashcreative</a></p>"
         },
         {
           "type": "select",
