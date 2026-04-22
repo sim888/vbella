@@ -17,18 +17,7 @@
   #shopify-section-{{ section.id }} .text-label,
   #shopify-section-{{ section.id }} .text-link,
   #shopify-section-{{ section.id }} .countdown-timer__message {
-    {%- case section.settings.font_weight -%}
-      {%- when '500' -%}
-        font-family: var(--font-body-family-medium);
-      {%- when '600' -%}
-        font-family: var(--font-body-family-semibold);
-      {%- when '700' -%}
-        font-family: var(--font-body-family-bold);
-      {%- else -%}
-        font-family: var(--font-body-family);
-    {%- endcase -%}
-    font-weight: normal;
-    font-size: {{ section.settings.font_size }}px;
+    font-weight: {{ section.settings.font_weight }};
   }
   {%- if section.settings.text_block_behaviour == 'marquee' -%}
     #shopify-section-{{ section.id }} > div {
@@ -260,25 +249,11 @@
           "label": "t:sections.global.element.font.weight.options.medium.label"
         },
         {
-          "value": "600",
-          "label": "t:sections.global.element.font.weight.options.semibold.label"
-        },
-        {
           "value": "700",
           "label": "t:sections.global.element.font.weight.options.bold.label"
         }
       ],
       "default": "700"
-    },
-    {
-      "type": "range",
-      "id": "font_size",
-      "min": 8,
-      "max": 24,
-      "step": 1,
-      "unit": "px",
-      "label": "Font size",
-      "default": 12
     },
     {
       "type": "header",

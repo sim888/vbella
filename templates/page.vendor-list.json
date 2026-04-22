@@ -6,7 +6,10 @@
         "breadcrumbs": true,
         "show_page_title": true,
         "page_title_alignment": "text-center",
+        "info_title": "",
+        "info_content": "",
         "section_width": "max-w-narrower",
+        "color_scheme": "",
         "spacing_top": "2",
         "spacing_bottom": "2"
       }
@@ -18,6 +21,8 @@
         "show_vendor_logo": true,
         "show_navigation": "both",
         "metaobject_for_section": "vendor",
+        "color_scheme": "",
+        "color_scheme_for_cards": "",
         "content_alignment": "center",
         "section_width": "max-w-page",
         "spacing_top": "2",

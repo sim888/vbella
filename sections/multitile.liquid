@@ -128,11 +128,6 @@
               assign tile_additional_classes = ''
               assign has_media = false
               assign has_mobile_media = false
-              assign has_content = false
-
-              if item_heading != blank or item_text != blank or block.settings.button_label != blank
-                assign has_content = true
-              endif
 
               assign media_aspect_ratio = '16/9'
               if item_image != blank or item_video != blank or item_video_external != blank
@@ -174,28 +169,10 @@
               endif
             -%}
 
-            {% comment %}
             {% style %}
               .block-{{ block.id }} {
                 --block-aspect-ratio: {{ block_aspect_ratio_mobile }};
                 --block-padding-multiplier: {{ block.settings.spacing_inner }};
-              }
-              @media screen and (min-width: 750px) {
-                .block-{{ block.id }} {
-                  --block-aspect-ratio: {{ block_aspect_ratio }};
-                }
-              }
-            {% endstyle %}
-            {% endcomment %}
-
-            {% style %}
-              .block-{{ block.id }} {
-                --block-padding-multiplier: {{ block.settings.spacing_inner }};
-                {%- if block.settings.media_position == 'background' and has_media and has_content == false -%}
-                  --block-aspect-ratio: {{ block_aspect_ratio_mobile }};
-                {%- else -%}
-                  --block-aspect-ratio: auto;
-                {%- endif -%}
               }
               @media screen and (min-width: 750px) {
                 .block-{{ block.id }} {

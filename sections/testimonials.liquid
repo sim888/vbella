@@ -17,7 +17,7 @@
   {%- if section.settings.heading != blank or section.settings.subheading != blank or rating_icon != 'none' -%}
     {%- capture section_title -%}
       <div class="text-center">
-        {%- if rating_icon != 'none' and section.settings.show_section_rating -%}
+        {%- if rating_icon != 'none' -%}
           <div class="section-testimonials__ratings">
             {% for i in (1..5) %}
               {%- if rating_icon == 'star' -%}
@@ -252,12 +252,6 @@
         }
       ],
       "default": "star"
-    },
-    {
-      "type": "checkbox",
-      "id": "show_section_rating",
-      "label": "Show section rating",
-      "default": true
     },
     {
       "type": "header",

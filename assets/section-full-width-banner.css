@@ -192,10 +192,6 @@ animation-observer {
     animation-name: none;
     animation-timing-function: none;
   }
-  .section-full-width-banner .section__heading.h1 {
-    font-size: calc(var(--font-heading-scale) * 3.3rem);
-    line-height: 1.1;
-  }
 }
 
 @media screen and (min-width: 750px) {

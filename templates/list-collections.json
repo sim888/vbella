@@ -1,1 +1,137 @@
-{"sections":{"page_banner_gqzEVH":{"type":"page-banner","settings":{"enable_transparent_header":true,"heading":"","heading_size":"h3","text":"","show_default_description":true,"show_on_description":"desktop","content_position":"center","content_alignment":"center","media_position":"background","page_menu":"","enable_breadcrumbs":true,"section_height":"33svh","content_width":"100%","video_external":"","show_controls_on_video":false,"section_height_mobile":"33svh","video_external_mobile":"","show_controls_on_video_mobile":false,"section_width":"max-w-narrow","color_scheme":"scheme-1","color_scheme_for_media":"","spacing_top":"2","spacing_bottom":"2"}},"main":{"type":"main-list-collections","blocks":{"collection_Whby34":{"type":"collection","settings":{"color_scheme":"scheme-1","collection":"face-care","heading":"","heading_size":"h4","subheading":""}},"collection_VmihBV":{"type":"collection","settings":{"color_scheme":"scheme-1","collection":"body","heading":"","heading_size":"h4","subheading":""}},"collection_zbhdyH":{"type":"collection","settings":{"color_scheme":"scheme-1","collection":"beard","heading":"","heading_size":"h4","subheading":""}},"collection_BRYGqf":{"type":"collection","settings":{"color_scheme":"scheme-1","collection":"hair","heading":"","heading_size":"h4","subheading":""}},"collection_7fyypt":{"type":"collection","settings":{"color_scheme":"scheme-1","collection":"perfumes","heading":"","heading_size":"h4","subheading":""}},"collection_Ycw7BH":{"type":"collection","settings":{"color_scheme":"scheme-1","collection":"accessories","heading":"","heading_size":"h4","subheading":""}}},"block_order":["collection_Whby34","collection_VmihBV","collection_zbhdyH","collection_BRYGqf","collection_7fyypt","collection_Ycw7BH"],"settings":{"collections_to_show":"selected","card_title_style":"card-single-text","collection_product_count":"show","collections_per_page":12,"pagination_style":"default","enable_infinity_scroll":false,"section_width":"max-w-page","color_scheme":"","spacing_top":"2","spacing_bottom":"4"}}},"order":["page_banner_gqzEVH","main"]}
+{
+  "sections": {
+    "page_banner_gViVwa": {
+      "type": "page-banner",
+      "settings": {
+        "heading": "",
+        "heading_size": "h3",
+        "text": "",
+        "content_alignment": "center",
+        "enable_breadcrumbs": true,
+        "section_width": "max-w-narrow",
+        "color_scheme": "scheme-5",
+        "spacing_top": "0",
+        "spacing_bottom": "4"
+      }
+    },
+    "main": {
+      "type": "main-list-collections",
+      "blocks": {
+        "collection_ANJfqa": {
+          "type": "collection",
+          "settings": {
+            "color_scheme": "scheme-1",
+            "collection": "bucket-bags"
+          }
+        },
+        "collection_VWKEMD": {
+          "type": "collection",
+          "settings": {
+            "color_scheme": "scheme-1",
+            "collection": "clutch-bags"
+          }
+        },
+        "collection_kA9w8A": {
+          "type": "collection",
+          "settings": {
+            "color_scheme": "scheme-1",
+            "collection": "cross-body-bags"
+          }
+        },
+        "collection_MRwyNC": {
+          "type": "collection",
+          "settings": {
+            "color_scheme": "scheme-1",
+            "collection": "top-handle-bags"
+          }
+        },
+        "collection_7p9AWX": {
+          "type": "collection",
+          "settings": {
+            "color_scheme": "scheme-1",
+            "collection": "tote-bags"
+          }
+        },
+        "collection_FQRNWA": {
+          "type": "collection",
+          "settings": {
+            "color_scheme": "scheme-1",
+            "collection": "all-products"
+          }
+        }
+      },
+      "block_order": [
+        "collection_ANJfqa",
+        "collection_VWKEMD",
+        "collection_kA9w8A",
+        "collection_MRwyNC",
+        "collection_7p9AWX",
+        "collection_FQRNWA"
+      ],
+      "settings": {
+        "collections_to_show": "selected",
+        "card_title_style": "card-single-text",
+        "collections_per_page": 12,
+        "section_width": "max-w-page",
+        "color_scheme": "",
+        "spacing_top": "2",
+        "spacing_bottom": "2"
+      }
+    },
+    "90f0172d-db82-4963-95c4-6a1724783cd8": {
+      "type": "trust-indicators",
+      "blocks": {
+        "template--16809880650043__90f0172d-db82-4963-95c4-6a1724783cd8-16677286337545964d-0": {
+          "type": "indicator",
+          "settings": {
+            "title": "Fast Global Shipping",
+            "link_label": "",
+            "link": "/",
+            "icon": "theme-box"
+          }
+        },
+        "template--16809880650043__90f0172d-db82-4963-95c4-6a1724783cd8-16677286337545964d-1": {
+          "type": "indicator",
+          "settings": {
+            "title": "Free Returns",
+            "link_label": "",
+            "link": "/",
+            "icon": "theme-box"
+          }
+        },
+        "template--16809880650043__90f0172d-db82-4963-95c4-6a1724783cd8-16677286337545964d-2": {
+          "type": "indicator",
+          "settings": {
+            "title": "100% secure payment",
+            "link_label": "",
+            "link": "/",
+            "icon": "theme-box"
+          }
+        }
+      },
+      "block_order": [
+        "template--16809880650043__90f0172d-db82-4963-95c4-6a1724783cd8-16677286337545964d-0",
+        "template--16809880650043__90f0172d-db82-4963-95c4-6a1724783cd8-16677286337545964d-1",
+        "template--16809880650043__90f0172d-db82-4963-95c4-6a1724783cd8-16677286337545964d-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "swipe_on_mobile": true,
+        "slideshow_autoplay_interval": 3,
+        "content_direction": "horizontal",
+        "content_alignment": "text-center",
+        "content_size": "h5",
+        "color_scheme_for_blocks": "scheme-5",
+        "section_width": "max-w-page",
+        "color_scheme": "",
+        "spacing_top": "2",
+        "spacing_bottom": "2"
+      }
+    }
+  },
+  "order": [
+    "page_banner_gViVwa",
+    "main",
+    "90f0172d-db82-4963-95c4-6a1724783cd8"
+  ]
+}

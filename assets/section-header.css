@@ -3,7 +3,7 @@
   color: rgb(var(--color-foreground));
   font-weight: var(--font-weight-normal);
   /* z-index: var(--z-header); */
-  border-block-end: 0.1rem solid var(--dc-border-color);
+  border-block-end: 0.1rem solid rgba(var(--color-foreground), var(--header-inner-after-opacity, 1));
   background-color: rgba(var(--color-background), var(--header-background-alpha, 1));
 }
 
@@ -406,7 +406,7 @@ nav.slide-out-menu div.menu-panels ul li .header__card .card__content a {
   body.is-at-top .header.header__nav-items--border .header__utils-items > li:first-child::before,
   body.is-at-top .header.header__nav-items--border:not(.header--nav-centered) .header__nav-items > li:last-child::before,
   body.is-at-top .header.header__nav-items--border.header--nav-centered .header__logo::before {
-    background-color: var(--dc-border-color);
+    background-color: rgb(var(--color-foreground));
     opacity: var(--header-inner-after-opacity);
   }
 

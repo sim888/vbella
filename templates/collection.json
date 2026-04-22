@@ -1,1 +1,178 @@
-{"sections":{"page_banner_tDVWmd":{"type":"page-banner","settings":{"enable_transparent_header":true,"heading":"FACE & BODY","heading_size":"h3","text":"<p>Skincare made simple. The EREMOS Face & Body range delivers everything you need to repair, protect, and strengthen your skin — no excess, no over-complication. Built for daily use, backed by clean organic ingredients, and designed for men who put their skin to the test.<\/p>","show_default_description":true,"show_on_description":"both","content_position":"end","content_alignment":"start","media_position":"background","page_menu":"","enable_breadcrumbs":true,"section_height":"auto","content_width":"50%","video_external":"","show_controls_on_video":false,"section_height_mobile":"auto","video_external_mobile":"","show_controls_on_video_mobile":false,"section_width":"max-w-fluid","color_scheme":"scheme-1","color_scheme_for_media":"","spacing_top":"2","spacing_bottom":"2"}},"featured_collections_bmfjgk":{"type":"featured-collections","blocks":{"collection_slide_YAzV4p":{"type":"collection-slide","settings":{"collection":"beard","heading":"","heading_size":"h4","subheading":""}},"collection_slide_UL78xk":{"type":"collection-slide","settings":{"collection":"face-care","heading":"","heading_size":"h4","subheading":""}},"collection_slide_NhbgrN":{"type":"collection-slide","settings":{"collection":"hair","heading":"","heading_size":"h4","subheading":""}},"collection_slide_zTmP6M":{"type":"collection-slide","settings":{"collection":"body","heading":"","heading_size":"h4","subheading":""}},"collection_slide_igkYLB":{"type":"collection-slide","settings":{"collection":"perfumes","heading":"","heading_size":"h4","subheading":""}},"collection_slide_wecHAd":{"type":"collection-slide","settings":{"collection":"candle","heading":"","heading_size":"h4","subheading":""}}},"block_order":["collection_slide_YAzV4p","collection_slide_UL78xk","collection_slide_NhbgrN","collection_slide_zTmP6M","collection_slide_igkYLB","collection_slide_wecHAd"],"disabled":true,"settings":{"layout":"layout-2","heading":"","heading_size":"h3","subheading":"","content_padding":"0","button_label":"","button_link":"#","button_style":"button--filled","card_layout":"product","card_style":"compact","image_aspect_ratio":"4\/5","card_content_alignment":"center","card_title_style":"card-text-arrow","collection_product_count":"show","slides_per_view":3,"slides_per_view_mobile":1,"show_carousel_arrows":false,"slideshow_alignment_center":false,"enable_slideshow_overflow":false,"slideshow_border":"top","section_width":"max-w-fluid","color_scheme":"","color_scheme_for_cards":"scheme-5","spacing_top":"1","spacing_bottom":"1"}},"main":{"type":"main-collection","blocks":{"text_card_J6n8hm":{"type":"text-card","settings":{"color_scheme":"scheme-6","text":"","button_link":"","link_type":"button","button_label":"","button_style":"button--text","content_position":"center","content_alignment":"center","content_position_mobile":"center","content_alignment_mobile":"center","position":3,"column_factor":2,"row_factor":2,"card_image":"shopify:\/\/shop_images\/Eremos-Collections.jpg"}},"96d74506-d90d-4c41-b78f-4d67853600e5":{"type":"text-card","settings":{"color_scheme":"scheme-3","text":"<h3>THE ULTIMATE PLACE FOR MEN’S BEAUTY<\/h3>","button_link":"","link_type":"button","button_label":"","button_style":"button--text","content_position":"center","content_alignment":"center","content_position_mobile":"center","content_alignment_mobile":"center","position":9,"column_factor":1,"row_factor":1}}},"block_order":["text_card_J6n8hm","96d74506-d90d-4c41-b78f-4d67853600e5"],"settings":{"show_top_border_for_utilities_bar":true,"enable_products_count":true,"enable_sorting":true,"enable_opened_accordions":true,"filters":"drawer","enable_range_slider_for_price_filter":false,"products_per_row":"4","products_per_row_mobile":"2","products_per_page":18,"pagination_style":"default","enable_infinity_scroll":false,"section_width":"max-w-fluid","color_scheme":"","spacing_top":"0","spacing_bottom":"6"}}},"order":["page_banner_tDVWmd","featured_collections_bmfjgk","main"]}
+{
+  "sections": {
+    "page_banner_dUKEnk": {
+      "type": "page-banner",
+      "settings": {
+        "enable_transparent_header": true,
+        "heading": "",
+        "heading_size": "h2",
+        "text": "",
+        "show_default_description": true,
+        "show_on_description": "both",
+        "content_position": "end",
+        "content_alignment": "start",
+        "media_position": "background",
+        "page_menu": "",
+        "enable_breadcrumbs": true,
+        "section_height": "auto",
+        "content_width": "100%",
+        "image": "{{ collection.image }}",
+        "video_external": "",
+        "show_controls_on_video": false,
+        "section_height_mobile": "33svh",
+        "video_external_mobile": "",
+        "show_controls_on_video_mobile": false,
+        "section_width": "max-w-fluid",
+        "color_scheme": "scheme-6",
+        "color_scheme_for_media": "scheme-3",
+        "spacing_top": "2",
+        "spacing_bottom": "6"
+      }
+    },
+    "featured_collections_gcVBjN": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_slide_FhTwYQ": {
+          "type": "collection-slide",
+          "settings": {
+            "collection": "bucket-bags",
+            "heading": "",
+            "heading_size": "h4",
+            "subheading": ""
+          }
+        },
+        "collection_slide_WNn8jg": {
+          "type": "collection-slide",
+          "settings": {
+            "collection": "clutch-bags",
+            "heading": "",
+            "heading_size": "h4",
+            "subheading": ""
+          }
+        },
+        "collection_slide_bRkcJg": {
+          "type": "collection-slide",
+          "settings": {
+            "collection": "cross-body-bags",
+            "heading": "",
+            "heading_size": "h4",
+            "subheading": ""
+          }
+        },
+        "collection_slide_XmwgNN": {
+          "type": "collection-slide",
+          "settings": {
+            "collection": "top-handle-bags",
+            "heading": "",
+            "heading_size": "h4",
+            "subheading": ""
+          }
+        },
+        "collection_slide_jkYCda": {
+          "type": "collection-slide",
+          "settings": {
+            "collection": "tote-bags",
+            "heading": "",
+            "heading_size": "h4",
+            "subheading": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_slide_FhTwYQ",
+        "collection_slide_WNn8jg",
+        "collection_slide_bRkcJg",
+        "collection_slide_XmwgNN",
+        "collection_slide_jkYCda"
+      ],
+      "settings": {
+        "layout": "layout-2",
+        "heading": "",
+        "heading_size": "h3",
+        "subheading": "",
+        "content_padding": "0",
+        "button_label": "",
+        "button_style": "button--filled",
+        "card_layout": "text",
+        "card_style": "compact",
+        "image_aspect_ratio": "3/4",
+        "card_content_alignment": "start",
+        "card_title_style": "card-single-text",
+        "collection_product_count": "show",
+        "slides_per_view": 3,
+        "slides_per_view_mobile": 1,
+        "show_carousel_arrows": true,
+        "slideshow_alignment_center": false,
+        "enable_slideshow_overflow": false,
+        "slideshow_border": "none",
+        "section_width": "max-w-fluid",
+        "color_scheme": "",
+        "color_scheme_for_cards": "",
+        "spacing_top": "2",
+        "spacing_bottom": "0"
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "blocks": {
+        "text_card_J6n8hm": {
+          "type": "text-card",
+          "settings": {
+            "color_scheme": "scheme-6",
+            "text": "",
+            "button_link": "",
+            "link_type": "button",
+            "button_label": "",
+            "button_style": "button--text",
+            "content_position": "center",
+            "content_alignment": "center",
+            "content_position_mobile": "center",
+            "content_alignment_mobile": "center",
+            "position": 7,
+            "column_factor": 2,
+            "row_factor": 1
+          }
+        }
+      },
+      "block_order": [
+        "text_card_J6n8hm"
+      ],
+      "settings": {
+        "show_top_border_for_utilities_bar": false,
+        "enable_products_count": true,
+        "enable_sorting": true,
+        "enable_opened_accordions": true,
+        "filters": "drawer",
+        "products_per_row": "4",
+        "products_per_row_mobile": "2",
+        "products_per_page": 18,
+        "pagination_style": "default",
+        "enable_infinity_scroll": false,
+        "section_width": "max-w-fluid",
+        "color_scheme": "",
+        "spacing_top": "2",
+        "spacing_bottom": "4"
+      }
+    },
+    "f8303da3-c3cb-4a90-a63a-7a628615aa6f": {
+      "type": "seo-content",
+      "settings": {
+        "section_layout": "normal",
+        "heading": "{{ collection.title }}",
+        "heading_size": "h3",
+        "content_alignment": "center",
+        "section_width": "max-w-page",
+        "color_scheme": "scheme-5",
+        "spacing_inner": "2",
+        "spacing_top": "4",
+        "spacing_bottom": "4"
+      }
+    }
+  },
+  "order": [
+    "page_banner_dUKEnk",
+    "featured_collections_gcVBjN",
+    "main",
+    "f8303da3-c3cb-4a90-a63a-7a628615aa6f"
+  ]
+}

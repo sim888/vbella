@@ -241,9 +241,8 @@ html.no-js .card-product-slider__slide + .card-product-slider__slide {
 .section-featured-products .text--label {
   display: flex;
   justify-content: center;
-  font-family: var(--font-body-family-medium);
-  font-size: 10px;
-  font-weight: normal;
+  font-size: var(--font-size-static-sm);
+  font-weight: var(--font-weight-normal);
   line-height: var(--line-height-static-sm);
   letter-spacing: 0.15rem;
 }

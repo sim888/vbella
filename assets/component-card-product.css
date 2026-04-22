@@ -39,10 +39,6 @@
   letter-spacing: 0.48px;
   text-transform: uppercase;
 }
-.product-card .product-card__info .product-card__price .price {
-  font-family: var(--font-body-family-medium);
-  font-weight: normal;
-}
 
 .product-card .product-card__info .product-card__price {
   flex-grow: 1;
@@ -61,8 +57,7 @@
 
 .product-card .product-card__info .product-card__title {
   flex-shrink: 1;
-  font-family: var(--font-heading-family);
-  font-weight: normal;
+  font-weight: var(--font-weight-heading-semibold);
   white-space: wrap;
   margin: 0;
   padding: 0;

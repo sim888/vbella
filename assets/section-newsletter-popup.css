@@ -90,20 +90,11 @@ newsletter-popup p:last-child {
   }
 
   .newsletter-popup__content {
-    padding: 4rem 24px;
+    padding: 4rem;
   }
 
   .newsletter-popup__media {
     display: block;
     border-radius: 0;
-  }
-  .newsletter-popup__content .section__heading {
-    font-size: 40px;
-    max-width: 360px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .newsletter-popup__entry p {
-    font-size: 14px;
   }
 }

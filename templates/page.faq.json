@@ -1,1 +1,115 @@
-{"sections":{"e4a22221-96e8-47eb-8e41-ff9780104ed3":{"type":"page-banner","custom_css":[".section-page-banner__text {max-width: 830px !important;}"],"settings":{"enable_transparent_header":true,"heading":"","heading_size":"h3","text":"<p>Got questions? We’ve got answers. From ingredients to routines, shipping to returns — here’s everything you need to know about EREMOS skincare. Built for strength, made simple.<\/p>","show_default_description":true,"show_on_description":"desktop","content_position":"center","content_alignment":"center","media_position":"background","page_menu":"","enable_breadcrumbs":false,"section_height":"33svh","content_width":"100%","image":"shopify:\/\/shop_images\/EREMOS-FAQ.jpg","video_external":"","show_controls_on_video":false,"section_height_mobile":"50svh","video_external_mobile":"","show_controls_on_video_mobile":false,"section_width":"max-w-fluid","color_scheme":"scheme-6","color_scheme_for_media":"scheme-6","spacing_top":"1","spacing_bottom":"1"}},"15d37dcd-dfe5-404c-80f1-8f76c2017e23":{"type":"accordions","blocks":{"template--17062096503099__15d37dcd-dfe5-404c-80f1-8f76c2017e23-16696259764c4b7b62-0":{"type":"topic","settings":{"is_open":true,"title":"Are EREMOS products really formulated for men?","text":"<p>Yes. Every product in the EREMOS range is designed with men’s skin in mind — thicker skin, larger pores, and more exposure to environmental stressors. Our formulations balance performance with simplicity, so they fit into a daily routine without fuss.<\/p>","page":""}},"template--17062096503099__15d37dcd-dfe5-404c-80f1-8f76c2017e23-16696259764c4b7b62-1":{"type":"topic","settings":{"is_open":false,"title":"Are your products natural?","text":"<p>We use high-performance, natural, and organic ingredients wherever possible, backed by science and efficacy. All products are vegan, cruelty-free, and free from parabens and sulphates.<\/p>","page":""}},"topic_XrnUQ6":{"type":"topic","settings":{"is_open":false,"title":"Where are EREMOS products made?","text":"<p>All EREMOS skincare is proudly crafted in Australia, using locally sourced ingredients wherever possible.<\/p>","page":""}},"topic_YLNTXA":{"type":"topic","settings":{"is_open":false,"title":"What skin types are your products suitable for?","text":"<p>Our range is suitable for all skin types, including oily, dry, and sensitive skin. Each product is designed to restore balance and resilience without harsh ingredients.<\/p>","page":""}},"topic_MQcTt7":{"type":"topic","settings":{"is_open":false,"title":"How should I use the products together?","text":"<p>Use the Charcoal Face Scrub to cleanse, followed by the Vita E-Face Moisturiser to restore and hydrate. apply the body butter as required, ideally after showering, to lock in moisture. For simplicity, try the Eremos System — the complete 3-step system.<\/p>","page":""}},"topic_GafEj7":{"type":"topic","settings":{"is_open":false,"title":"Do you test on animals?","text":"<p>Never. EREMOS is 100% vegan and cruelty-free.<\/p>","page":""}},"topic_bUJnmc":{"type":"topic","settings":{"is_open":false,"title":"How long will one product last me?","text":"<p>Each 100ml product is designed to last 6–8 weeks with daily use, depending on how much you apply.<\/p>","page":""}},"topic_L9DMXY":{"type":"topic","settings":{"is_open":false,"title":"Topic Do you offer refunds or exchanges?","text":"<p>If you’re not completely satisfied with your purchase, we offer a straightforward returns process. Please see our Returns Policy for details.<\/p>","page":""}},"topic_UiJpgf":{"type":"topic","settings":{"is_open":false,"title":"Do you ship outside of Australia?","text":"<p>Yes, we offer international shipping to selected countries. Shipping rates and delivery times are calculated at checkout. If your country isn’t listed, get in touch with our team and we’ll do our best to make it happen.<\/p>","page":""}},"topic_mw8ELp":{"type":"topic","settings":{"is_open":false,"title":"How does EREMOS support men’s mental health?","text":"<p>A portion of every purchase helps fund initiatives and organisations that provide resources and awareness around men’s mental wellbeing — because true strength comes from looking after both body and mind.<\/p>","page":""}}},"block_order":["template--17062096503099__15d37dcd-dfe5-404c-80f1-8f76c2017e23-16696259764c4b7b62-0","template--17062096503099__15d37dcd-dfe5-404c-80f1-8f76c2017e23-16696259764c4b7b62-1","topic_XrnUQ6","topic_YLNTXA","topic_MQcTt7","topic_GafEj7","topic_bUJnmc","topic_L9DMXY","topic_UiJpgf","topic_mw8ELp"],"settings":{"heading":"Frequently asked questions","heading_size":"h3","section_width":"max-w-narrower","color_scheme":"scheme-1","spacing_top":"4","spacing_bottom":"4"}},"accordions":{"type":"accordions","blocks":{"06f97daa-496a-417b-aa49-d8a47260cf78":{"type":"topic","settings":{"is_open":false,"title":"Do I have to create an account?","text":"<p>No, you don't have to create an account. However, we strongly recommend that you create an account so that you can take advantage of the various benefits it offers. For example, you will be able to access your account easily the next time you visit us, and you will also be able to get personalized recommendations and services tailored to your needs. By creating an account with us, you will be able to make the most out of our services and save time in the future.<\/p>","page":""}},"e957eb44-fbe4-4f40-a034-48a4d0a4099a":{"type":"topic","settings":{"is_open":false,"title":"How do I change my account password?","text":"<p>If you have forgotten your password, don't worry. You can easily reset it by clicking the 'forgot password' link. Once you click the link, you will receive an email with instructions on how to create a new password. Follow the instructions to set a new password that is secure and easy to remember. Remember to keep your password safe and never share it with anyone.<\/p>","page":""}}},"block_order":["06f97daa-496a-417b-aa49-d8a47260cf78","e957eb44-fbe4-4f40-a034-48a4d0a4099a"],"disabled":true,"settings":{"heading":"Frequently asked questions","heading_size":"h3","section_width":"max-w-narrower","color_scheme":"scheme-3ecfe127-9e1a-41fc-b9f0-518d3d1cf67c","spacing_top":"2","spacing_bottom":"6"}}},"order":["e4a22221-96e8-47eb-8e41-ff9780104ed3","15d37dcd-dfe5-404c-80f1-8f76c2017e23","accordions"]}
+{
+  "sections": {
+    "e4a22221-96e8-47eb-8e41-ff9780104ed3": {
+      "type": "page-banner",
+      "settings": {
+        "text": "<p>If you have a question, please consult our list of frequently asked questions before reaching out for assistance.</p>",
+        "section_width": "max-w-page",
+        "color_scheme": "scheme-5",
+        "spacing_top": "2",
+        "spacing_bottom": "1"
+      }
+    },
+    "15d37dcd-dfe5-404c-80f1-8f76c2017e23": {
+      "type": "accordions",
+      "blocks": {
+        "template--17062096503099__15d37dcd-dfe5-404c-80f1-8f76c2017e23-16696259764c4b7b62-0": {
+          "type": "topic",
+          "settings": {
+            "is_open": true,
+            "title": "How do I return my order?",
+            "text": "<p>If you would like to return your order, please fill out the return form that came with the package. Make sure to include all the information requested on the form, such as the order number and the reason for the return. Once the form is complete, carefully seal the package and attach the shipping label that was also included with the package. Place the package in an appropriate shipping box and be sure to take the package to the post office or a courier service as soon as possible. If you have any questions about the return process, please contact our customer service team for assistance. We hope that you are completely satisfied with your purchase, but if you are not, we are here to help.<br/></p>",
+            "page": ""
+          }
+        },
+        "template--17062096503099__15d37dcd-dfe5-404c-80f1-8f76c2017e23-16696259764c4b7b62-1": {
+          "type": "topic",
+          "settings": {
+            "is_open": false,
+            "title": "All orders can be returned within 30 days.",
+            "text": "<p>Once we have received the order return, the refund will be processed within 14 business days.</p>",
+            "page": ""
+          }
+        },
+        "template--17062096503099__15d37dcd-dfe5-404c-80f1-8f76c2017e23-16696259764c4b7b62-2": {
+          "type": "topic",
+          "settings": {
+            "is_open": false,
+            "title": "Are there any shipping costs?",
+            "text": "<p>Shipping Costs Explained: Everything You Need to Know Before Checkout.</p>",
+            "page": ""
+          }
+        },
+        "topic_tbVqpp": {
+          "type": "topic",
+          "settings": {
+            "is_open": false,
+            "title": "Can I still change my order?",
+            "text": "<p>If you want to change your order, please send us an email. We will see what is still possible.</p>",
+            "page": ""
+          }
+        },
+        "topic_ejc3cx": {
+          "type": "topic",
+          "settings": {
+            "is_open": false,
+            "title": "How can I track my order?",
+            "text": "<p>As soon as your order is shipped we will send you a track & trace code by mail. This way you can track your order.<br/><br/>Keep in mind that it can take up to 48 hours before the track & trace is available. Can't track your package after 48h? Please send us an email and we will contact the shipping company.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17062096503099__15d37dcd-dfe5-404c-80f1-8f76c2017e23-16696259764c4b7b62-0",
+        "template--17062096503099__15d37dcd-dfe5-404c-80f1-8f76c2017e23-16696259764c4b7b62-1",
+        "template--17062096503099__15d37dcd-dfe5-404c-80f1-8f76c2017e23-16696259764c4b7b62-2",
+        "topic_tbVqpp",
+        "topic_ejc3cx"
+      ],
+      "settings": {
+        "section_width": "max-w-narrower",
+        "color_scheme": "scheme-1",
+        "spacing_top": "4",
+        "spacing_bottom": "4"
+      }
+    },
+    "accordions": {
+      "type": "accordions",
+      "blocks": {
+        "06f97daa-496a-417b-aa49-d8a47260cf78": {
+          "type": "topic",
+          "settings": {
+            "is_open": false,
+            "title": "Do I have to create an account?",
+            "text": "<p>No, you don't have to create an account. However, we strongly recommend that you create an account so that you can take advantage of the various benefits it offers. For example, you will be able to access your account easily the next time you visit us, and you will also be able to get personalized recommendations and services tailored to your needs. By creating an account with us, you will be able to make the most out of our services and save time in the future.</p>",
+            "page": ""
+          }
+        },
+        "e957eb44-fbe4-4f40-a034-48a4d0a4099a": {
+          "type": "topic",
+          "settings": {
+            "is_open": false,
+            "title": "How do I change my account password?",
+            "text": "<p>If you have forgotten your password, don't worry. You can easily reset it by clicking the 'forgot password' link. Once you click the link, you will receive an email with instructions on how to create a new password. Follow the instructions to set a new password that is secure and easy to remember. Remember to keep your password safe and never share it with anyone.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "06f97daa-496a-417b-aa49-d8a47260cf78",
+        "e957eb44-fbe4-4f40-a034-48a4d0a4099a"
+      ],
+      "settings": {
+        "section_width": "max-w-narrower",
+        "color_scheme": "scheme-3ecfe127-9e1a-41fc-b9f0-518d3d1cf67c",
+        "spacing_top": "2",
+        "spacing_bottom": "6"
+      }
+    }
+  },
+  "order": [
+    "e4a22221-96e8-47eb-8e41-ff9780104ed3",
+    "15d37dcd-dfe5-404c-80f1-8f76c2017e23",
+    "accordions"
+  ]
+}

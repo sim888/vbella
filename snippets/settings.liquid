@@ -35,32 +35,37 @@
 -%}
 
 {%- style -%}
-  /* Artegra Sans font-face declarations */
-  @font-face {
-    font-family: "ArtegraSansRegular";
-    src: url('https://cdn.shopify.com/s/files/1/0682/6432/9261/files/ArtegraSansRegular.woff2?v=1772351000') format('woff2'), url('https://cdn.shopify.com/s/files/1/0682/6432/9261/files/ArtegraSansRegular.woff?v=1772351000') format('woff');
-    font-display: swap;
-  }
-  @font-face {
-    font-family: "ArtegraSansMedium";
-    src: url('https://cdn.shopify.com/s/files/1/0682/6432/9261/files/ArtegraSansMedium.woff2?v=1772350999') format('woff2'), url('https://cdn.shopify.com/s/files/1/0682/6432/9261/files/ArtegraSansMedium.woff?v=1772350999') format('woff');
-    font-display: swap;
-  }
-  @font-face {
-    font-family: "ArtegraSansSemiBold";
-    src: url('https://cdn.shopify.com/s/files/1/0682/6432/9261/files/ArtegraSansSemiBold.woff2?v=1772350999') format('woff2'), url('https://cdn.shopify.com/s/files/1/0682/6432/9261/files/ArtegraSansSemiBold.woff?v=1772351000') format('woff');
-    font-display: swap;
-  }
-  @font-face {
-    font-family: "ArtegraSansBold";
-    src: url('https://cdn.shopify.com/s/files/1/0682/6432/9261/files/ArtegraSansBold.woff2?v=1772351000') format('woff2'), url('https://cdn.shopify.com/s/files/1/0682/6432/9261/files/ArtegraSansBold.woff?v=1772350999') format('woff');
-    font-display: swap;
-  }
-  @font-face {
-    font-family: "ArtegraSansExtendedBold";
-    src: url('https://cdn.shopify.com/s/files/1/0682/6432/9261/files/ArtegraSansExtendedBold.woff2?v=1772350999') format('woff2'), url('https://cdn.shopify.com/s/files/1/0682/6432/9261/files/ArtegraSansExtendedBold.woff?v=1772350999') format('woff');
-    font-display: swap;
-  }
+  /* typography - body */
+  {{ settings.type_body_font | font_face: font_display: 'swap' }}
+  {{ body_font_normal | font_face: font_display: 'swap' }}
+  {{ body_font_medium | font_face: font_display: 'swap' }}
+  {{ body_font_semibold | font_face: font_display: 'swap' }}
+  {{ body_font_bold | font_face: font_display: 'swap' }}
+
+  /* typography - body italic */
+  {{ body_font_italic | font_face: font_display: 'swap' }}
+  {{ body_font_bold_italic | font_face: font_display: 'swap' }}
+
+  /* typography - heading */
+  {{ settings.type_heading_font | font_face: font_display: 'swap' }}
+  {{ heading_font_normal | font_face: font_display: 'swap' }}
+  {{ heading_font_medium | font_face: font_display: 'swap' }}
+  {{ heading_font_semibold | font_face: font_display: 'swap' }}
+  {{ heading_font_bold | font_face: font_display: 'swap' }}
+
+  /* typography - italic */
+  {{ settings.type_italic_font | font_face: font_display: 'swap' }}
+  {{ italic_font_normal | font_face: font_display: 'swap' }}
+  {{ italic_font_medium | font_face: font_display: 'swap' }}
+  {{ italic_font_semibold | font_face: font_display: 'swap' }}
+  {{ italic_font_bold | font_face: font_display: 'swap' }}
+
+  /* typography - button */
+  {{ settings.type_button_font | font_face: font_display: 'swap' }}
+  {{ button_font_normal | font_face: font_display: 'swap' }}
+  {{ button_font_medium | font_face: font_display: 'swap' }}
+  {{ button_font_semibold | font_face: font_display: 'swap' }}
+  {{ button_font_bold | font_face: font_display: 'swap' }}
 
   {% for scheme in settings.color_schemes -%}
   {% assign scheme_classes = scheme_classes | append: ', .color-' | append: scheme.id %}
@@ -146,40 +151,34 @@
     --header-top-position: calc(var(--header-height) + var(--announcement-bars-before-header-heights));
     --header-group-height: {{ settings.default_header_height }}px;
 
-    /* typography - heading (ArtegraSansExtendedBold) */
-    --font-heading-family: "ArtegraSansExtendedBold", {{ settings.type_heading_font.fallback_families }};
-    --font-heading-style: normal;
-    --font-heading-weight: normal;
+    /* typography - heading */
+    --font-heading-family: {{ settings.type_heading_font.family }}, {{ settings.type_heading_font.fallback_families }};
+    --font-heading-style: {{ settings.type_heading_font.style }};
+    --font-heading-weight: {{ settings.type_heading_font.weight }};
 
     --font-heading-scale: {{ settings.heading_font_scale | divided_by: 100.0 }};
     --font-heading-letter-spacing: {{ settings.heading_letter_spacing }};
     --font-heading-text-transform: {{ settings.heading_text_transform }};
     --font-heading-word-break: {{ settings.heading_word_break }};
 
-    /* typography - body (ArtegraSansRegular, weight variants swap font-family) */
-    --font-body-family: "ArtegraSansRegular", {{ settings.type_body_font.fallback_families }};
-    --font-body-style: normal;
-    --font-body-weight: normal;
-    --font-body-family-medium: "ArtegraSansMedium", {{ settings.type_body_font.fallback_families }};
-    --font-body-family-semibold: "ArtegraSansSemiBold", {{ settings.type_body_font.fallback_families }};
-    --font-body-family-bold: "ArtegraSansBold", {{ settings.type_body_font.fallback_families }};
+    /* typography - body */
+    --font-body-family: {{ settings.type_body_font.family }}, {{ settings.type_body_font.fallback_families }};
+    --font-body-style: {{ settings.type_body_font.style }};
+    --font-body-weight: {{ settings.type_body_font.weight }};
 
     --font-body-scale: {{ settings.body_font_scale | divided_by: 100.0 }};
     --font-body-letter-spacing: {{ settings.body_letter_spacing }};
 
-    /* typography - italic (ArtegraSansRegular, weight variants swap font-family) */
-    --font-italic-family: "ArtegraSansRegular", {{ settings.type_italic_font.fallback_families }};
-    --font-italic-style: italic;
-    --font-italic-weight: normal;
-    --font-italic-family-medium: "ArtegraSansMedium", {{ settings.type_italic_font.fallback_families }};
-    --font-italic-family-semibold: "ArtegraSansSemiBold", {{ settings.type_italic_font.fallback_families }};
-    --font-italic-family-bold: "ArtegraSansBold", {{ settings.type_italic_font.fallback_families }};
+    /* typography - italic */
+    --font-italic-family: {{ settings.type_italic_font.family }}, {{ settings.type_italic_font.fallback_families }};
+    --font-italic-style: {{ settings.type_italic_font.style }};
+    --font-italic-weight: {{ settings.type_italic_font.weight }};
     --font-italic-scale: {{ settings.italic_font_scale | divided_by: 100.0 }};
 
-    /* typography - button (ArtegraSansMedium) */
-    --font-button-family: "ArtegraSansMedium", {{ settings.type_button_font.fallback_families }};
-    --font-button-style: normal;
-    --font-button-weight: normal;
+    /* typography - button */
+    --font-button-family: {{ settings.type_button_font.family }}, {{ settings.type_button_font.fallback_families }};
+    --font-button-style: {{ settings.type_button_font.style }};
+    --font-button-weight: {{ settings.type_button_font.weight }};
 
     --font-button-scale: {{ settings.button_font_scale | divided_by: 100.0 }};
     --font-button-letter-spacing: {{ settings.button_letter_spacing }};
@@ -187,25 +186,25 @@
 
     /* add 'arial' as a fallback font for rtl languages */
     {%- if request.locale.iso_code == 'ar' or request.locale.iso_code == 'he' -%}
-      --font-body-family: "ArtegraSansRegular", Arial, {{ settings.type_body_font.fallback_families }};
-      --font-heading-family: "ArtegraSansExtendedBold", Arial, {{ settings.type_heading_font.fallback_families }};
-      --font-button-family: "ArtegraSansMedium", Arial, {{ settings.type_button_font.fallback_families }};
-      --font-italic-family: "ArtegraSansRegular", Arial, {{ settings.type_italic_font.fallback_families }};
+      --font-body-family: {{ settings.type_body_font.family }}, Arial, {{ settings.type_body_font.fallback_families }};
+      --font-heading-family: {{ settings.type_heading_font.family }}, Arial, {{ settings.type_heading_font.fallback_families }};
+      --font-button-family: {{ settings.type_button_font.family }}, Arial, {{ settings.type_button_font.fallback_families }};
+      --font-italic-family: {{ settings.type_italic_font.family }}, Arial, {{ settings.type_italic_font.fallback_families }};
     {%- endif -%}
 
-    /* font weights (all normal — weight is handled by swapping font-family) */
-    --font-weight-normal: normal;
-    --font-weight-medium: normal;
-    --font-weight-semibold: normal;
-    --font-weight-bold: normal;
+    /* font weights */
+    --font-weight-normal: {{ body_font_normal.weight }}; /* 400 */
+    --font-weight-medium: {{ body_font_medium.weight }}; /* 500 */
+    --font-weight-semibold: {{ body_font_semibold.weight }}; /* 600 */
+    --font-weight-bold: {{ body_font_bold.weight }}; /* 700 */
 
-    --font-weight-heading-normal: normal;
-    --font-weight-heading-medium: normal;
-    --font-weight-heading-semibold: normal;
-    --font-weight-heading-bold: normal;
+    --font-weight-heading-normal: {{ heading_font_normal.weight }}; /* 400 */
+    --font-weight-heading-medium: {{ heading_font_medium.weight }}; /* 500 */
+    --font-weight-heading-semibold: {{ heading_font_semibold.weight }}; /* 600 */
+    --font-weight-heading-bold: {{ heading_font_bold.weight }}; /* 700 */
 
-    --font-weight-button-normal: normal;
-    --font-weight-button-medium: normal;
+    --font-weight-button-normal: {{ button_font_normal.weight }}; /* 400 */
+    --font-weight-button-medium: {{ button_font_medium.weight }}; /* 500 */
 
     /* digi-note-kk - is it possible to remove these? */
     --letter-spacing-extra-small: 0.05rem;
